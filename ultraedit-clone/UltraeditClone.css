@@ -1,0 +1,149 @@
+header {
+    margin-top: 30px;
+
+}
+
+.logo {
+    display: flex;
+    width: 40px;
+    height: 35px;
+}
+
+.logo2 {
+    display: flex;
+    width: 60px;
+    height: 55px;
+}
+
+.logo img {
+    width: 135px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right ul {
+    display: flex;
+    gap: 35px;
+}
+
+.right ul li {
+    list-style: none;
+}
+
+.right ul li a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+
+.right ul li a:hover {
+    color: gray;
+}
+
+.right ul li span {
+    padding: 0px 3px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    margin: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.first span {
+    font-size: 40px;
+}
+
+section span img {
+    width: 104px;
+    height: 34px;
+    margin: 0 23px;
+}
+
+.first p {
+    font-size: 23px;
+    width: 74vw;
+    text-align: center;
+}
+
+.btn {
+    background: #00b6d1;
+    padding: 14px 16px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    margin: 12px 0;
+    cursor: pointer;
+}
+
+.green {
+    background-color: #5cb85c;
+    font-size: 12px;
+    padding: 8px 5px;
+   margin: 12px 5px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 70px;
+}
+
+.item {
+    padding: 23px;
+    justify-content: space-around;
+    background: #f9f9f9;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.item-lang {
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 36px;
+}
+.smalleng{
+    font-size: 12px;
+}
+.sha{
+    font-size: 10px;
+}
+.sha2{
+    font-size: 6px;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 42px;
+}
+
+.size2 {
+    padding: 8px;
+    font-size: 15px;
+}
+@media screen and (max-width: 1145px) {
+    .grid{ 
+        grid-template-columns: 1fr; 
+    }
+}
