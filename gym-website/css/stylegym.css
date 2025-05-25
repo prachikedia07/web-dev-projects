@@ -1,0 +1,106 @@
+/* CSS reset
+added the body portion directly in the html file */
+    .left {
+        position: absolute;
+        left: 35px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid green; */
+    }
+
+    .left img {
+        width: 80px;
+        
+    }
+
+    .left div{
+        line-height: 15px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        position: absolute;
+        right: 35px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid green; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .navbar li a {
+        color: rgb(199, 196, 153);
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        color: rgb(114, 110, 110);
+        text-decoration: underline;
+    }
+
+    .btn {
+        font-family: "Rubik Dirt", system-ui;
+        margin: 0px 10px;
+        background-color: rgb(168, 165, 165);
+        color: rgb(26, 28, 30);
+        padding: 5px 5px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 13px;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(164, 138, 138);
+    }
+
+    .container {
+        border: 2px solid rgb(11, 11, 6);
+        background-color: rgb(14, 14, 13);
+        background-blend-mode: lighten;
+        margin-top: 100px;
+        margin-left: 50px;
+        width: 33%;
+
+    }
+
+    .form-group input {
+        text-align: center;
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: block;
+        width: auto;
+        padding: 5px;
+        border: 2px solid white;
+        border-radius: 2px;
+        margin: 11px auto;
+    }
+
+    .container h1 {
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .container button {
+        display: block;
+        margin-left: 40%;
+        width: auto;
+    }
