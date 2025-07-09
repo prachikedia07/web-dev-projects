@@ -39,7 +39,6 @@ This is my **first JavaScript-based project**, a simple yet functional **diction
 ├── 📄 index.html
 ├── 📄 style.css
 ├── 📄 script.js
-├── 📁 screenshots/
 │ ├── screenshot1.png
 │ └── screenshot2.png
 
