@@ -25,11 +25,11 @@ This is my **first JavaScript-based project**, a simple yet functional **diction
 
 ### 🔎 Word Lookup Interface
 
-![App Screenshot 1](./screenshots/screenshot1.png)
+![App Screenshot 1](./screenshot1.png)
 
 ### 📱 Responsive Design Preview
 
-![App Screenshot 2](./screenshots/screenshot2.png)
+![App Screenshot 2](./screenshot2.png)
 
 ---
 
