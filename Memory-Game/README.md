@@ -10,6 +10,11 @@ A simple yet engaging **Memory Card Matching Game** built using **HTML, CSS, and
 - Win detection with a popup
 - Clean and modern UI
 
+## 🌿 Card Design
+
+This game uses cute and colorful animal icons from the **Rainforest Icon Pack** by [flaticon.com](https://www.flaticon.com/). The images were used for the card faces to make the game visually engaging and thematic.
+
+
 ## 🖥️ Preview
 
 ### 🕹️ Gameplay in Action
