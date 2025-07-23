@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #43e97b, #38f9d7);
+  color: #092e20; /*updated*/
+}
+
+.wrapper {
+  box-sizing: content-box;
+  width: 26.87em;
+  padding: 2.5em 3em;
+  background-color: #ffffff; /*updates*/
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  border-radius: 0.6em;
+  box-shadow: 0 0.9em 2.8em rgba(0, 0, 0, 0.6);
+}
+
+.game-container {
+  position: relative;
+  width: 100%;
+  display: grid;
+  gap: 0.6em;
+}
+
+.stats-container {
+  text-align: right;
+  margin-bottom: 1.2em;
+  color: #0b3c36;/*updated*/
+}
+
+.stats-container span {
+  font-weight: 600;
+}
+
+.card-container {
+  position: relative;
+  width: 5em;
+  height: 5em;
+  cursor: pointer;
+}
+
+.card-container img {
+  width: 4em;
+  height: 4em;
+}
+
+.card-before,
+.card-after {
+  position: absolute;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid #2fc4b2;;/*updated*/
+  transition: transform 0.7s ease-out;
+  backface-visibility: hidden;
+}
+
+.card-before {
+  background-color: #b2f1dd;/*updated*/
+  font-size: 2.8em;
+  font-weight: 600;
+  color: #092e20;/*updated*/
+}
+
+.card-after {
+  background-color: #ffffff;/*updated*/
+  transform: rotateY(180deg);
+}
+
+.card-container.flipped .card-before {
+  transform: rotateY(180deg);
+}
+
+.card-container.flipped .card-after {
+  transform: rotateY(0deg);
+}
+
+.controls-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(56, 249, 215, 0.85); /* Updated */
+  top: 0;
+  color: #092e20;/*updated*/
+}
+
+button {
+  border: none;
+  border-radius: 0.3em;
+  padding: 1em 1.5em;
+  cursor: pointer;
+  background-color: #10574e;/*updated*/
+  color: #ffffff;/*updated*/
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #74c7b9;/*updated*/
+}
+
+#stop {
+  font-size: 1.1em;
+  display: block;
+  margin: 0.9em auto 0 auto;
+  background-color: #2fc4b2;/*updated*/
+  color: #ffffff;/*updated*/
+}
+
+.controls-container button {
+  font-size: 1em;
+  box-shadow: 0 0.6em 1em rgba(2, 57, 51, 0.2);/*updated*/
+}
+
+.hide {
+  display: none;
+}
+
+#result {
+  text-align: center;
+}
+
+#result h2 {
+  font-size: 2.5em;
+  color: #ffdfc2;/*updated*/
+}
+
+#result h4 {
+  font-size: 1.8em;
+  margin: 0.6em 0 1em 0;
+  color: #ffffff;/*updated*/
+}
