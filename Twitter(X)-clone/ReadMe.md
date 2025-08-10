@@ -18,7 +18,7 @@ This project was created for learning and practicing **frontend web development*
 
 Video preview:  
 
-[🎬 Watch Demo](demo/demo.mp4)
+[🎬 Watch Demo](demo.mp4)
 
 ---
 
