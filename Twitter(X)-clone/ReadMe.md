@@ -9,8 +9,8 @@ This project was created for learning and practicing **frontend web development*
 
 | Screenshot 1 | Screenshot 2 |
 |--------------|--------------|
-| ![Screenshot 1](screenshots/screenshot1.png) 
-| ![Screenshot 2](screenshots/screenshot2.png) 
+| ![Screenshot 1](screenshot1.png) 
+| ![Screenshot 2](screenshot2.png) 
 
 ---
 
