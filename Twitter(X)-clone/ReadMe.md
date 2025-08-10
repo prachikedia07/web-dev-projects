@@ -17,9 +17,8 @@ This project was created for learning and practicing **frontend web development*
 ## 🎥 Demo
 
 Video preview:  
-
-[🎬 Watch Demo](demo.mp4)
-
+[▶ Watch Demo on Google Drive](https://drive.google.com/file/d/1X_0hgfCTpjeOgpFYJeBHLugAvwVFAx86/view?usp=sharing
+)
 ---
 
 ## 🛠️ Tech Stack
