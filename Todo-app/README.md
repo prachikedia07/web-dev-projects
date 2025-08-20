@@ -36,9 +36,12 @@ Todo-app/
 
 ---
 ## 📸 Screenshots
-(Add your screenshots here)
+| ![Screenshot 1](screenshots/screenshot1.png) |
+| ![Screenshot 2](screenshots/screenshot2.png) |
+| ![Screenshot 2](screenshots/screenshot3.png) |
+
 
 ---
 
 ## 🔗 Demo
-(Deploy on Netlify/Vercel and paste link here)
+[▶ Watch Demo on Google Drive](https://drive.google.com/file/d/1Ie1VM0n7X0jQOru_TA_P_yZLKr4jB_LC/view?usp=sharing)
