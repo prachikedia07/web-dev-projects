@@ -1,0 +1,97 @@
+/* Base styles (shared across all themes) */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  transition: background 0.4s ease, color 0.4s ease;
+}
+
+.navbar, .todo, .container {
+  transition: background 0.4s ease, color 0.4s ease;
+}
+#todotext{
+  color: var(--todotext-text);
+}
+
+/* ---------------- THEMES ---------------- */
+
+/* Blue-Pink Theme */
+.theme-bluepink {
+  --bg-gradient: linear-gradient(to bottom, #051f43 30%, #FE8492);
+  --navbar-bg: #051f43;
+  --navbar-text: #ed8c98;
+  --box-bg: #0c2a54;
+  --box-text: #ed8c98;
+  --todos-text: #051f43;
+  --todotext-text: #051832;
+  --todo-bg: linear-gradient(to bottom, #051f43 , #FE8492 );
+  --todo-text: #FFDCDC;
+  --btn-bg: #b96d75;
+  --btn-text: #04152e;
+}
+
+/* Coffee-Cream Theme */
+.theme-coffee {
+  --bg-gradient: linear-gradient(to bottom, #39130c 30%, #E8D8C4);
+  --navbar-bg: #431810;
+  --navbar-text: #E8D8C4;
+  --box-bg: #451911;
+  --box-text: #896131;
+  --todo-bg: linear-gradient(to bottom, #481910 50%, #e7c69f);
+  --todo-text: #EBD6C4;
+  --todotext-text: #361510;
+  --btn-bg: #E8D8C4;
+  --btn-text: #2A1B18;
+}
+
+/* Forest-Mint Theme */
+.theme-forest {
+  --bg-gradient: linear-gradient(to bottom, #032F20 30%, #D0FADC);
+  --navbar-bg: #032F20;
+  --navbar-text: #D0FADC;
+  --box-bg: #0a4330;
+  --box-text: #93d4a6;
+  --todo-bg: linear-gradient(to bottom, #053324 30%, #93d4a6);
+  --todo-text: #D0FADC;
+  --todotext-text: #072917;
+  --btn-bg: #D0FADC;
+  --btn-text: #032F20;
+}
+
+/* ---------------- COMPONENTS USING VARS ---------------- */
+
+body {
+  background: var(--bg-gradient);
+  color: var(--navbar-text);
+}
+
+.navbar {
+  background: var(--navbar-bg);
+  color: var(--navbar-text);
+  padding: 1rem 2rem;
+}
+
+.box{
+  background: var(--box-bg);
+  color: var(--box-text);
+  font-size: small;
+}
+
+.todo {
+  background: var(--todo-bg);
+  color: var(--todo-text);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background: var(--btn-bg);
+  color: var(--btn-text);
+  border: none;
+  padding: 0.7rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+
